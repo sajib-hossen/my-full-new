@@ -1,4 +1,120 @@
-*{
+
+body{
     margin: 0;
     padding: 0;
+    
+}
+
+
+.header-area{
+    display: flex;
+    background-image: url('image/top-banner.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.text-area{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 10%;
+    
+}
+.text-area h1{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.text-area h2{
+    font-size: 50px;
+}
+.text-area .span-text{
+    color: red;
+}
+.text-area h4{
+    font-size: 25px;
+}
+.text-area .link-btn{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 40px;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    
+    
+}
+.image-area{
+    width: 50%;
+}
+.image-area img{
+    width: 80%;
+
+}
+.Dream-big{
+    display: flex;
+    margin-top: 150px;
+    background-image: url('image/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.Dream-right{
+ width: 50%;
+}
+.Dream-left{
+    width: 50%;
+    margin-left: 5%;
+}
+.Dream-left img{
+    width: 80%;
+}
+.Dream-right h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.Dream-right h2{
+    font-size: 30px;
+}
+.Dream-right .link-btn{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 40px;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    
+    
+}
+.experience{
+    background-image: url('image/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 150px;
+}
+.experience-area{
+    display: flex;
+    padding: 50px;
+    margin-left: 30px;
+}
+.experience-area h4{
+    color: orange;
+}
+.experience-area h2{
+    font-size: 45px;
+}
+.experience h1{
+    font-size: 50px;
+}
+.experience-left{
+    width: 45%;
+    margin-left: 5%;
+    box-shadow: 12px 15px 30px gray;
+    padding: 25px;
+    border-radius: 20px;
+    
+    
+    
+}
+footer{
+    text-align: center;
+    font-size: 1.5rem;
 }
